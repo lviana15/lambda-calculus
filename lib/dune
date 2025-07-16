@@ -1,2 +1,3 @@
 (library
- (name lambda))
+ (name lambda)
+ (modules Ast Lexer))
