@@ -1,3 +1,5 @@
 (library
  (name lambda)
  (modules Ast Lexer))
+
+(ocamllex lexer)
