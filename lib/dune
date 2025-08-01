@@ -1,5 +1,7 @@
 (library
  (name lambda)
- (modules Ast Lexer))
+ (modules Ast Lexer Parser))
 
 (ocamllex lexer)
+
+(ocamlyacc parser)
